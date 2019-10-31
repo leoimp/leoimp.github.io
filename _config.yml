@@ -11,6 +11,12 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 # Header and footer text
 header_text: Welcome to my Jekyll blog                  # Change Blog header text
 header_feature_image: assets/img/pexels/triangular.jpeg
+#footer
+rss: true                                               # Make sure you created a feed.xml with feed.xml layout
+email_address: sliony@126.com
+linkedin:
+stack_exchange: 
+stack_overflow: 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/litlelion/">litlelion</a>
 
@@ -50,4 +56,4 @@ exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "
           "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+remote_theme:                                           # If using as a remote_theme in github
