@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blogging with title
+title: learnig git
 tags: [Test, Ipsum, Markdown, Portfolio]
 ---
 
