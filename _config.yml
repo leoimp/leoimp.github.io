@@ -17,8 +17,7 @@ email_address: sliony@126.com
 linkedin:
 stack_exchange: 
 stack_overflow: 
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/litlelion/">litlelion</a>
+footer_text: Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/litlelion/">litlelion</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
