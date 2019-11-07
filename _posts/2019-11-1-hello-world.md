@@ -3,7 +3,7 @@ layout: post
 title: "GIT LEARNING" 
 subtitle: "github guide"   
 feature-img: "assets/img/pexels/computer.jpeg"                    # Will display the image in the post
-img: "assets/img/portfolio/computer.png"                    # Will display the image in the portfolio page
+img: "assets/img/portfolio/computer.jpeg"                    # Will display the image in the portfolio page
 thumbnail: "assets/img/thumbnails/computer.jpeg"
 date: 2019-11-1                                          # Not mandatory, however needs to be in date format to display the date
 #hide: true                                               # Prevent the page title to appear in the navbar
