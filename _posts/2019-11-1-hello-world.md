@@ -29,7 +29,8 @@ Git distributions for Linux and POSIX system are  available on the offical Git S
 #### GitHub for All Platforms
 <http://git-scm.com>
 
-### CONFIGURE TOOLING [^ configure user information for all local repositories ]
+### CONFIGURE TOOLING 
+configure user information for all local repositories
 
 #### $ git config --global user.name "[name]"
 Sets the name you want attached to your commit transactions
