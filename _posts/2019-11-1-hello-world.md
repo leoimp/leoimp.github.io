@@ -32,13 +32,13 @@ Git distributions for Linux and POSIX system are  available on the offical Git S
 ### CONFIGURE TOOLING 
 configure user information for all local repositories
 
-#### $ git config --global user.name "[name]"
+#### $ git config  - -global user.name "[name]"
 Sets the name you want attached to your commit transactions
 
-#### $ git config --global user.email "[email address]"
+#### $ git config  - -global user.email "[email address]"
 Sets the email you want attached to your commit transactions
 
-#### $ git config --global color.ui auto
+#### $ git config  - -global color.ui auto
 Enables helpful colorization of command line output
 
 ******
@@ -66,7 +66,7 @@ Shows file differences not yet staged
 #### $ git add [file]
 Snapshots the file in preparation for versioning
 
-#### $ git diff --staged
+#### $ git diff  - -staged
 Shows file difference between staging and the last file version
 
 #### $ git reset [file]
@@ -106,7 +106,7 @@ Relocate and remove versioned files
 #### $ git rm [file]
 Deletes the file from the working directory and stages the deletion
 
-#### $ git rm --cached [file]
+#### $ git rm  - -cached [file]
 Removes the file from version control but preserves the file locally
 
 #### $ git mv [file-original] [file-renamed]
@@ -123,7 +123,7 @@ temp-*
 
 A text file named .gitignore suppresses accidental versioning of files and paths matching the specified patterns
 
-#### $ git ls-files --other --ignored --exclude-standard
+#### $ git ls-files - -other  - -ignored  - -exclude-standard
 Lists all ignored files in this project
 
 ******
@@ -151,7 +151,7 @@ Browse and inspect the evolution of project files
 #### $ git log
 Lists version history for the current branch
 
-#### $ git log --follow [file]
+#### $ git log - -follow [file]
 Lists version history for a file, including renames
 
 #### $ git diff [first-branch] ... [second-branch]
@@ -168,7 +168,7 @@ Erase mistakes and craft replacement history
 #### $ git reset [commit]
 Undoes all commits after [commit] preserving changes locally
 
-#### $ git reset --hard [commit]
+#### $ git reset - -hard [commit]
 Discards all history and changes back to the specified commit
 
 ******
