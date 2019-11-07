@@ -98,7 +98,7 @@ Deletes the specified branc
 
 ******
 
-![git]({{ "assets/img/pexels/GIT.png" }})
+![git]({{ "/assets/img/pexels/GIT.png" | relative_url }})
 
 ### REFACTOR FILENAMES
 Relocate and remove versioned files
@@ -188,10 +188,8 @@ Uploads all local branch commits to GitHub
 #### $ git pull
 Downloads bookmark history and incorporates changes
 
-******
+![git]({{ "/assets/img/pexels/git.png" | relative_url }})
 
-
-![git]({{ "assets/img/pexels/git.png" }})
   
   
 
