@@ -189,7 +189,7 @@ Downloads bookmark history and incorporates changes
 ******
 
 
-![Image of a glass on a book]({{ "/assets/img/pexels/book-glass.jpeg" | relative_url }})
+![Image of a glass on a book]({{ "/assets/img/pexels/git.png" }})
   
   
 
