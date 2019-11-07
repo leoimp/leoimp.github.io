@@ -98,6 +98,8 @@ Deletes the specified branc
 
 ******
 
+![git]({{ "assets/img/pexels/GIT.png" }})
+
 ### REFACTOR FILENAMES
 Relocate and remove versioned files
 
@@ -189,7 +191,7 @@ Downloads bookmark history and incorporates changes
 ******
 
 
-![Image of a glass on a book]({{ "/assets/img/pexels/git.png" }})
+![git]({{ "assets/img/pexels/git.png" }})
   
   
 
