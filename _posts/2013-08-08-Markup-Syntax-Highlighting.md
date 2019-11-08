@@ -2,7 +2,7 @@
 layout: post
 title: "Markup: Syntax Highlighting"
 author: mmistakes
-tags: [blog]
+tags: [blog, markdown]
 ---
 
 From Michael's Rose [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting).
@@ -86,4 +86,3 @@ An example of a Gist embed below.
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
 
 ### Source
-

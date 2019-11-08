@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markdown and HTML
-tags: [blog]
+tags: [blog, markdown]
 author: rohanchandra
 ---
 

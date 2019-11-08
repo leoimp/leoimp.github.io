@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generate a table of content
-tags: [toc.js, kramdown, Markdown, Customization]
+tags: [toc.js, blog, markdown]
 author: sylhare
 excerpt_separator: <!--more-->
 ---
@@ -187,5 +187,7 @@ $(document).ready(function() {
 <script type="text/javascript">
 $(document).ready(function() {
     $('#toc').toc();
+});
+</script>('#toc').toc();
 });
 </script>
