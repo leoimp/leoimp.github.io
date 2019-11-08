@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markdown and HTML
-tags: [Test, Markdown]
+tags: [blog]
 author: rohanchandra
 ---
 
@@ -38,4 +38,4 @@ Type on Strap uses KaTeX to display maths. Equations such as $$S_n = a \times \f
 
 Alternatively, they can be shown on a new line:
 
-$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
+$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$6}{x-2} $$
