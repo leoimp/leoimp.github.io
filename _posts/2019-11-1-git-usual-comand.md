@@ -2,7 +2,7 @@
 layout: post
 title: "GIT LEARNING" 
 subtitle: "github guide"   
-feature-img: "assets/img/pexels/computer.jpeg"                    # Will display the image in the post
+#feature-img: "assets/img/pexels/computer.jpeg"           # Will display the image in the post
 img: "assets/img/pexels/computer.jpeg"                    # Will display the image in the portfolio page
 thumbnail: "assets/img/pexels/computer.jpeg"
 date: 2019-11-1                                          # Not mandatory, however needs to be in date format to display the date
@@ -33,21 +33,21 @@ Git distributions for Linux and POSIX system are  available on the offical Git S
 configure user information for all local repositories
 
 ```
-$ git config  - -global user.name "[name]"
+$ git config  --global user.name "[name]"
 
 ```
 
 Sets the name you want attached to your commit transactions
 
 ```
-$ git config  - -global user.email "[email address]"
+$ git config  --global user.email "[email address]"
 
 ```
 Sets the email you want attached to your commit transactions
 
 
 ```
-$ git config  - -global color.ui auto
+$ git config  --global color.ui auto
 
 ```
 Enables helpful colorization of command line output
@@ -185,7 +185,7 @@ Deletes the file from the working directory and stages the deletion
 
 
 ```
-$ git rm  - -cached [file]
+$ git rm  --cached [file]
 
 ```
 
@@ -204,15 +204,17 @@ Changes the file name and prepares for commit
 ### SUPPRESS TRACKING
 Exclude temporary files and paths
 
-*.log
-build/
+*.log   
+
+build/   
+
 temp-*
 
 A text file named .gitignore suppresses accidental versioning of files and paths matching the specified patterns
 
 
 ```
-$ git ls-files - -other  - -ignored  - -exclude-standard
+$ git ls-files --other  --ignored  --exclude-standard
 
 ```
 
@@ -270,7 +272,7 @@ Lists version history for the current branch
 
 
 ```
-$ git log - -follow [file]
+$ git log --follow [file]
 
 ```
 
@@ -306,7 +308,7 @@ $ git reset [commit]
 
 Undoes all commits after [commit] preserving changes locally
 
-> $ git reset - -hard [commit]  
+> $ git reset --hard [commit]  
 
 Discards all history and changes back to the specified commit
 
